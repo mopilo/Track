@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Passionate Care Foundation Project Framework uses 16 key family practices\n to decrease mortality and morbidity in children under five and enable children\n to develop and grow. They are as follows:  "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/first_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For physical growth and\n mental development:  "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:background="@drawable/edit_text"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"/>
+
+            <LinearLayout
+                android:id="@+id/layout_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/one"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text=" 1.	Breastfeed infants exclusively for at least six months. (HIV-positive moth¬ers need special counseling on infant feeding to understand and practice the safest options.)`
+                    "
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/two"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text=" 2.	Starting at about six months of age, feed children freshly prepared energy-and nutrient-rich complementary foods, while continuing to breastfeed up to two years or longer. "
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/three"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text=" 3.	Ensure that children receive adequate amounts of micronutrients (vitamin A and iron, in particular), either in their diets or through supplementation.  "
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/four"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text=" 4.	Promote mental and social development by responding to a child’s needs for care through talking, playing, and providing a stimulating environment.  "
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/second_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For disease prevention:   "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/edit_text"
+                />
+
+            <LinearLayout
+                android:id="@+id/layout_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/five"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="5.	Take children as scheduled to complete the full course of immunizations (BCG, DPT, OPV, and measles) before their first birthdays. "
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/six"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text=" 6.	Dispose of feces, including children’s feces, safely; wash hands after defeca¬tion, before preparing meals, and before feeding children.  "
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/seven"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text=" 7.	Protect children in malaria-endemic areas by ensuring that they sleep under insecticide-treated bed nets. "
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/eight"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text=" 8.	Adopt and sustain appropriate behavior regarding prevention and care for HIV/AIDS affected people, including orphans. 30 Community Approaches to Child Health in Nigeria "
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/thrid_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For appropriate home care:  "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/edit_text"
+                />
+
+            <LinearLayout
+                android:id="@+id/layout_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/nine"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="9.	Continue to feed and offer more fluids, including breast milk, to children when they are sick.  "
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/ten"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text=" 10.	Give sick children appropriate home treatment for infections.  "
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/eleven"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text=" 11.	Take appropriate actions to prevent and manage child injuries and accidents. "
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/twelve"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text=" 12.	Prevent child abuse and neglect and take appropriate action when it has occurred. "
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/thirteen"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text=" 13.	Ensure that men actively participate in providing child care and are involved in the reproductive health of the family.  "
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/fouth_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For seeking care:   "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/edit_text"
+                />
+
+            <LinearLayout
+                android:id="@+id/layout_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/fouteen"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="14.	Recognize when sick children need treatment outside the home and seek care from appropriate providers.  "
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/fifteen"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text=" 15.	Follow the health worker’s advice about treatment, follow-up, and referral."
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/sixteen"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text=" 16.	Ensure that every pregnant woman has adequate antenatal care. This includes having at least four antenatal visits with an appropriate health care provider and receiving the recommended doses of the tetanus toxoid vaccination. The mother also needs support from her family and community in seeking care at the time of delivery and during the postpartum and lactation period. "
+                    android:textColorHint="#000000"
+                    android:drawablePadding="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+                </TextView>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

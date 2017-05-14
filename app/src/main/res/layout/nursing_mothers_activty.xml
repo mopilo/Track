@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="15dp">
+    <!--main-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/pregnant_women_fname"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:inputType="text"
+            android:background="@drawable/edit_text"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"/>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+            <EditText
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:id="@+id/pregnant_women_phone"
+                android:layout_height="wrap_content"
+                android:layout_width="200dp"
+                android:background="@drawable/edit_text"
+                android:hint=" Phone Number"
+                android:gravity="center"
+                android:inputType="phone|number"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:layout_gravity="center">
+            </EditText>
+
+            <EditText
+                android:id="@+id/pregnant_women_age"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:padding="16dp"
+                android:hint="Age"
+                android:layout_marginLeft="10dp"
+                android:textColorHint="#000"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="26dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pregnant_women_pregnancy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:text="Child's Sex"
+                    android:layout_marginBottom="5dp"/>
+
+                <Spinner
+                    android:id="@+id/pregnant_women_spinner_pregnancy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/pregnant_women_feelings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:text="Are you breastfeeding now?"
+                    android:layout_marginBottom="5dp"/>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/pregnant_women_spinner_feelings">
+                </Spinner>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="26dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pregnant_women_antenatal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:text="Where did you give birth?"
+                    android:layout_marginBottom="5dp"/>
+
+                <Spinner
+                    android:id="@+id/pregnant_women_spinner_dosage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/pregnant_women_smoke"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:text="How was ur delivery?"
+                    android:layout_marginBottom="5dp"/>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/pregnant_women_spinner_smoke">
+                </Spinner>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="26dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:text="How is child’s health\n after birth??"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/pregnant_women_alcohol"/>
+
+                <Spinner
+                    android:id="@+id/pregnant_women_spinner_alcohol"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:text="Is your Child more than 6months old?"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/pregnant_women_working"/>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/pregnant_women_spinner_side_working">
+                </Spinner>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="26dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:text="Have you immunized your child?"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/pregnant_women_supplements"/>
+
+                <Spinner
+                    android:id="@+id/pregnant_women_spinner_supplements"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:text="Are you on medication\n"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/pregnant_women_medication"/>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/pregnant_women_spinner_side_medication">
+                </Spinner>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="26dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <EditText
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/pregnant_women_child_supplements_option"
+                    android:layout_height="wrap_content"
+                    android:layout_width="200dp"
+                    android:background="@drawable/edit_text"
+                    android:hint=" If Yes, when?"
+                    android:gravity="center"
+                    android:inputType="phone|number"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:layout_gravity="center">
+                </EditText>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <EditText
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/pregnant_women_child_medication_option"
+                    android:layout_height="wrap_content"
+                    android:layout_width="200dp"
+                    android:background="@drawable/edit_text"
+                    android:hint=" If yes, mention them"
+                    android:gravity="center"
+                    android:inputType="phone|number"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:layout_gravity="center">
+                </EditText>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="26dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <EditText
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/pregnant_women_food"
+                    android:layout_height="wrap_content"
+                    android:layout_width="200dp"
+                    android:background="@drawable/edit_text"
+                    android:hint=" Give 3 types of foods consumed last week?"
+                    android:gravity="center"
+                    android:inputType="phone|number"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:layout_gravity="center">
+                </EditText>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <EditText
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:id="@+id/pregnant_women_children"
+                    android:layout_height="wrap_content"
+                    android:layout_width="200dp"
+                    android:background="@drawable/edit_text"
+                    android:hint=" How many children do you have?"
+                    android:gravity="center"
+                    android:inputType="phone|number"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:layout_gravity="center">
+                </EditText>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image"
+            android:src="@drawable/finger"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>

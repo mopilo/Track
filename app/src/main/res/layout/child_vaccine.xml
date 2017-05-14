@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="15dp">
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/child_vacine_parent_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Parent's Name"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="@drawable/edit_text"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:id="@+id/child_vacine_child_name"
+        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:background="@drawable/edit_text"
+        android:hint=" Child's Name"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_gravity="center">
+    </EditText>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="SEX:"
+                android:layout_marginBottom="2dp"/>
+
+            <Spinner
+                android:id="@+id/child_vaccine_spinner_sex"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/child_vaccine_age"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:padding="16dp"
+                android:hint="Age"
+                android:textColorHint="#000"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="26dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="DOSAGE:"
+                android:layout_marginBottom="5dp"/>
+
+            <Spinner
+                android:id="@+id/child_vaccine_spinner_dosage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="SIDE SIDE EFFECTS:"
+                android:layout_marginBottom="5dp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/child_vaccine_spinner_side_effects">
+            </Spinner>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="VACCINE TYPE:"
+        android:layout_marginBottom="5dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColorHint="#CFD8DC"
+        android:id="@+id/child_vaccine_spinner_vaccine">
+
+    </Spinner>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fingerScanner"
+        android:src="@drawable/finger"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.squaresoftng.track.android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DisplayGridviewIcon"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChildVaccineActivity"
+                  android:theme="@style/AppTheme"
+            android:label="Child Vaccine">
+        </activity>
+        <activity android:name=".ChildVAS"
+                  android:theme="@style/AppTheme"
+            android:label="Child VAS">
+        </activity>
+
+        <activity android:name=".FamilyPracticeActivity"
+            android:theme="@style/AppTheme"
+            android:label="Key Family Practices">
+        </activity>
+
+        <activity android:name=".InsecticideNet"
+            android:theme="@style/AppTheme"
+            android:label=" Inasecticide Treated Bed-net">
+        </activity>
+        <activity android:name=".PregnantWomen"
+            android:theme="@style/AppTheme"
+            android:label="Pregnant Women">
+        </activity>
+        <activity android:name=".NursingMother"
+            android:theme="@style/AppTheme"
+            android:label="Nursing Mothers">
+        </activity>
+    </application>
+
+</manifest>

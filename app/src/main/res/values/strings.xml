@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Trak</string>
+    <string-array name="vaccine">
+        <item>Vatamin A</item>
+        <item>Polio</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="dosage">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="Side_effect">
+        <item>Yes</item>
+        <item>NO</item>
+
+
+
+    </string-array>
+
+    <string-array name="children">
+    <item>Yes</item>
+    <item>NO</item>
+    </string-array>
+
+    <string-array name="duration_pregnancy">
+        <item>0-3 Months</item>
+        <item>3-6 Months</item>
+        <item>6-9 Months</item>
+    </string-array>
+</resources>
